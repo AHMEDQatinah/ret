@@ -1,0 +1,462 @@
+body {
+    background: linear-gradient(#0b0755, #4b0044) no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    padding: auto;
+}
+
+.container {
+    width: 98%;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.btn {
+    width: 350px;
+    height: 100px;
+    background: linear-gradient(#00023c, #00023c);
+    border: none;
+    outline: none;
+    font-family: "Slabo 27px", serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    text-shadow: 0 10px 10px #000;
+    cursor: pointer;
+    transform: rotateX(60deg);
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.btn::before {
+    content: "";
+    width: 100%;
+    height: 15px;
+    background: linear-gradient(#0b0755, #4b0044) no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+}
+
+.btn::after {
+    content: "";
+    width: 15px;
+    height: 100%;
+    background-color: #853916;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotateY(-90deg);
+    transform-origin: right;
+}
+
+.btn:hover {
+    transform: rotateX(30deg) rotateZ(0);
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px 49px;
+}
+
+/* .div1,
+.div2,
+.div3,
+.div4 {
+    border-radius: 10px;
+    box-shadow: 5px 5px 6px rgb(104, 102, 110);
+    width: 300px;
+}
+
+.div2 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 150px;
+    left: 174px;
+    border-style: outset;
+    background-color: #ffff;
+}
+
+.div2:hover {
+    transform: scale(1.1);
+    position: absolute;
+    top: 150px;
+    left: 170px;
+    transition-duration: 0.4s;
+}
+
+.div3 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 150px;
+    right: 464px;
+    border-style: outset;
+    background-color: #ffff;
+}
+
+.div3:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+
+
+.div4 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 150px;
+    right: 124px;
+    border-style: outset;
+    background-color: #ffff;
+}
+
+.div4:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+} */
+
+
+img {
+    width: 300px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+/* .w1 {
+    background-color: black;
+    color: white;
+    border-radius: 15%;
+    padding: 7px;
+} */
+
+
+.fff {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+}
+
+.ggg {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+}
+
+.ss0,
+.ss1,
+.ss2,
+.ss3,
+.ss4,
+.ss5,
+.ss6,
+.ss7,
+.ss8,
+.ss9,
+.ss10,
+.ss11{
+    background-color: #020028;
+    border-radius: 50%;
+    width: 40px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ss0{
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    border-style: groove;
+}
+
+.ss0:hover {
+    transform: scale(1.1);
+    border-style: inset;
+    background-color: #18182e;
+}
+
+.ss1{
+    position: absolute;
+    top: 20px;
+    right: 120px;
+    border-style: groove;
+}
+
+.ss1:hover {
+    transform: scale(1.1);
+    border-style: inset;
+    background-color: #18182e;
+}
+
+.ss2{
+    position: absolute;
+    top: 20px;
+    right:180px;
+    border-style: groove;
+}
+
+.ss2:hover {
+    transform: scale(1.1);
+    border-style: inset;
+    background-color: #18182e;
+}
+
+.ss3{
+    position: absolute;
+    top: 20px;
+    right: 240px;
+    border-style: groove;
+}
+
+.ss3:hover {
+    transform: scale(1.1);
+    border-style: inset;
+    background-color: #18182e;
+}
+
+.ss4{
+    position: absolute;
+    top: 20px;
+    right: 300px;
+    border-style: groove;
+}
+
+.ss4:hover {
+    transform: scale(1.1);
+    border-style: inset;
+    background-color: #18182e;
+}
+
+.ss5{
+    position: absolute;
+    top: 20px;
+    right: 360px;
+    border-style: groove;
+}
+
+.ss5:hover {
+    transform: scale(1.1);
+    border-style: inset;
+    background-color: #18182e;
+}
+
+.ss6{
+    position: absolute;
+    top: 20px;
+    left: 360px;
+    border-style: groove;
+}
+
+.ss6:hover {
+    transform: scale(1.1);
+    border-style: inset;
+    background-color: #18182e;
+}
+
+.ss7{
+    position: absolute;
+    top: 20px;
+    left: 300px;
+    border-style: groove;
+}
+
+.ss7:hover {
+    transform: scale(1.1);
+    border-style: inset;
+    background-color: #18182e;
+}
+
+.ss8{
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    border-style: groove;
+}
+
+.ss8:hover {
+    transform: scale(1.1);
+    border-style: inset;
+    background-color: #18182e;
+}
+
+.ss9{
+    position: absolute;
+    top: 20px;
+    left: 180px;
+    border-style: groove;
+}
+
+.ss9:hover {
+    transform: scale(1.1);
+    border-style: inset;
+    background-color: #18182e;
+}
+
+.ss10{
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    border-style: groove;
+}
+
+.ss10:hover {
+    transform: scale(1.1);
+    border-style: inset;
+    background-color: #18182e;
+}
+
+.ss11{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    border-style: groove;
+}
+
+.ss11:hover {
+    transform: scale(1.1);
+    border-style: inset;
+    background-color: #18182e;
+}
+
+
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .section-1-icons i {
+    font-size: 35rem;
+    color: #a79a2d;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0);
+    text-shadow: 0.2rem 0.2rem 0.2rem #000;
+    transition: transform 0.3s;
+  }
+  
+  .section-1-icons i.change {
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 0.3s 0.3s;
+  }
+  /* End of Section 1 */
+  
+  /* Section 2 */
+  .section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10rem;
+    height: 165px;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 0 5%; */
+  }
+  
+  .card {
+    width: 220px;
+    height: 300px;
+    background: linear-gradient(#0b0755, #4b0044) no-repeat;
+    padding: 4rem;
+    margin: 1rem;
+    margin-top: -120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1rem 1rem 1rem #000;
+    position: relative;
+    transform: rotateY(20deg) skewX(-2deg);
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+  
+  .card:hover {
+    transform: rotateY(20deg) skewX(-2deg) translateY(-2rem);
+    box-shadow: 2rem 2rem 2rem #000;
+  }
+  
+  .card::before {
+    content: "";
+    height: 100%;
+    width: 1rem;
+    background: linear-gradient(#0b0755, #542850) no-repeat;
+    position: absolute;
+    top: 0;
+    left: -1rem;
+    transform: skewY(45deg);
+    transform-origin: right;
+    box-shadow: -0.1rem -0.1rem 0.1rem #000;
+  }
+  
+  .card::after {
+    content: "";
+    width: 100%;
+    height: 1rem;
+    background: linear-gradient(#0b0755, #4b0044) no-repeat;
+    position: absolute;
+    top: -1rem;
+    left: 0;
+    transform: skewX(45deg);
+    transform-origin: bottom;
+    box-shadow: -0.1rem -0.1rem 0.1rem #000;
+  }
+  
+  
+  .card-name {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #111;
+    margin: 2rem 0;
+    text-shadow: 0.15rem 0.15rem 0.15rem #000;
+  }
+  
+  .card-btn {
+    width: 70%;
+    background-color: #111;
+    color: #888;
+    border-radius: 5rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+    border: none;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    box-shadow: -0.2rem -0.2rem 0.2rem #000;
+  }
+
+
+  /* End of Section 2 */
+  
+  /* Section 3 */
+  .section-3 {
+    background-color: #333;
+    padding: 5rem 0;
+  }
+  
+
+  span{
+      color: wheat;
+  }

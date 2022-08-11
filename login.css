@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+}
+
+
+.menu-bar {
+    height: 90px;
+}
+
+.nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: white;
+    direction: rtl;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #045388bf;
+}
+
+.nav a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 1rem;
+    margin-left: 4rem;
+}
+
+.nav a:hover {
+    color: rgb(7, 23, 27);
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.bg-img {
+    background: url(34.webp);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.bg-img:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    margin-top: 90px;
+    height: 90%;
+    width: 100%;
+    background-color: #04538823;
+}
+
+
+
+.content {
+    position: absolute;
+    top: 60%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 999;
+    width: 380px;
+    text-align: center;
+    padding: 40px 32px;
+    background: #0453886e;
+    box-shadow: -1px 4px 28px 0px rgba(177, 194, 235, 0.308);
+}
+
+.content header {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+}
+
+.field {
+    position: relative;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background: rgb(255, 255, 255);
+}
+
+.field input {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #222;
+    padding: 0 12px;
+    font-size: 16px;
+}
+
+.space {
+    margin-top: 16px;
+}
+
+.pass {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.pass a {
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    text-decoration: none;
+}
+
+.pass:hover a {
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    background: #3498db;
+    border: 1px solid #2691d9;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Tajawal', sans-serif;
+}
+
+input[type="submit"]:hover {
+    background: #2691d9;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1,
+.img2 {
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.login {
+    color: white;
+    font-size: 18px;
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+header {
+    background-image: url('land.jpg');
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: white;
+    direction: rtl;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #045388bf;
+}
+
+.nav a {
+    color: white;
+    font-size:1.3rem;
+    text-decoration: none;
+    padding: 1rem;
+    margin-left: 4rem;
+
+}
+
+.nav a:hover {
+    color: rgb(79, 202, 227);
+    text-decoration: underline;
+    transition: 1s;
+}
+
+
+
+
+.one,
+.two,
+.three {
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+    padding: 12px;
+
+}
+
+.main img {
+    padding: 22px;
+    margin: 22px;
+    border-radius: 12px;
+    border: 3px solid rgb(0, 0, 0);
+    height: 400px;
+    width: 500px;
+
+}
+
+
+.main img:hover {
+    animation-name: img;
+    animation-duration: 2s;
+}
+
+
+@keyframes img {
+    from {
+        transform: rotate(2deg);
+    }
+
+    from {
+        transform: rotate(5deg);
+    }
+
+}
+
+
+
+
+.img-slide {
+    width: 100%;
+    height: 600px;
+}
+
+
+.img-slide img {
+    width: 100%;
+    height: 600px;
+    object-fit: fill;
+}
+
+.title {
+    text-align: center;
+    margin: 20px 0;
+    padding: 12px;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: #045388bf;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    color: #fff;
+    font-family: 'Tajawal', sans-serif;
+}
